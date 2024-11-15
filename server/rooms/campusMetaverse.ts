@@ -3,7 +3,7 @@ import { Room, Client, ServerError } from "colyseus";
 import { Dispatcher } from "@colyseus/command";
 import { Player, RoomState, Computer, Whiteboard } from "./schema/RoomState";
 import { Message } from "../../types/message";
-import { RoomData } from "../../types/room";
+import { RoomData } from "../../types/Room";
 import { whiteboardRoomIds } from "./schema/RoomState";
 import PlayerUpdateCommand from "./commands/commandToUpdatePlayer";
 import playerUpdateNameCommand from "./commands/commandToUpdatePlayerName";
