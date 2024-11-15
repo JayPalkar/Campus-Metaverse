@@ -4,8 +4,8 @@ export enum RoomType {
 }
 
 export interface RoomData {
-  name: String;
-  description: String;
-  password: string | null;
+  name: string;
+  description: string;
+  // password: string | null;
   autoDispose: boolean;
 }
